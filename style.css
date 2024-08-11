@@ -363,10 +363,16 @@ body{
     padding: 40px 80px;
   }
 }
+.ek{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
 
 /* Responsive for Mobile */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 750px) {
 
   .pbbbf{
     padding: 8px 15px;
@@ -390,7 +396,7 @@ body{
       gap: 0.6rem;
 
       & img {
-        width: 12%;
+        width: 15%;
       }
       .btn-1 {
         padding: 0 10px;
@@ -407,7 +413,7 @@ body{
   .mini-area {
     .input-area {
       padding: 10px;
-      width: 70%;
+      width: 50%;
       margin-top: 30px;
   
       & h1 {
@@ -415,22 +421,49 @@ body{
         font-size: 20px;
       }
       & div {
+        justify-content: center;
+        align-items: center;
         display: grid;
         margin-bottom: 10px;
         gap: 10px;
   
         & select.pbbbf{
-          width: 170%;
+          width: 100%;
         }
         & input.pbbbf{
-          width: 116%;
+          width: 100%;
         }
         & .btn-2.pbbbf{
-          width: 116%;
+          width: 100%;
         }
       }
     }
   }
+
+
+  .why-zappr-section {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.why-zappr {
+  padding: 10px 30px;
+  margin-top: 40px;
+  
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover{
+    transform: scale(1.3);
+  }
+}
+
+.why-zappr a{
+  color: white;
+  font-weight: 600;
+}
 
 
 
@@ -505,7 +538,7 @@ body{
 
   .signup-section{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
 
     & p{
       font-size: 40px;
